@@ -1,28 +1,22 @@
-# 📦 E-Commerce Delivery Time Predictor
+# ⚡ ETA FORECASTER
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0+-orange.svg)](https://scikit-learn.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
+[![Accuracy](https://img.shields.io/badge/Accuracy-98%25-brightgreen)](https://github.com)
+[![MAE](https://img.shields.io/badge/MAE-0.17%20days-success)](https://github.com)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)
 
-A powerful machine learning model that predicts e-commerce delivery times with **98% accuracy** (MAE: 0.17 days). This project helps logistics teams optimize delivery schedules, manage customer expectations, and identify potential shipping delays before they happen.
+## 🎯 WHAT IS THIS?
+A machine learning model that predicts e-commerce delivery times with **98% accuracy** (MAE: 0.17 days). Analyzes customer regions, product categories, shipping modes, order amounts, weight, and distance to forecast delivery durations. Includes comprehensive EDA, feature importance analysis, and production-ready code.
 
-![Actual vs Predicted Plot](path/to/your/actual-vs-predicted-plot.png) *<-- You can add your plot image here*
+## 🚀 QUICK START
 
-## 🎯 Business Impact
+```bash
+# 1. Clone this bad boy
+git clone https://github.com/yourusername/eta-forecaster.git
+cd eta-forecaster
 
-- 📉 **Reduce Late Deliveries** by identifying high-risk orders in advance
-- 📊 **Optimize Logistics** by understanding key delivery factors
-- 💰 **Save Costs** through better route and carrier planning
-- 😊 **Improve Customer Experience** with accurate delivery estimates
+# 2. Install dependencies
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter joblib
 
-## ✨ Key Features
-
-- ✅ **98% Accurate** predictions using Random Forest Regressor
-- ✅ **Feature Importance Analysis** to identify what really matters
-- ✅ **Interactive Visualizations** for deep data understanding
-- ✅ **Production-Ready** code structure
-- ✅ **Comprehensive Error Analysis** and model diagnostics
-- ✅ **Easy Deployment** with saved model file
-
-## 🏗️ Project Structure
+# 3. Run the notebook
+jupyter notebook notebooks/ml_model.ipynb
